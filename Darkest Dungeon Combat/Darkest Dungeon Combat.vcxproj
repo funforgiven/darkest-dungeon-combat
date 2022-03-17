@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\AttackSkill.cpp" />
+    <ClCompile Include="Sources\Axeblade.cpp" />
+    <ClCompile Include="Sources\Bone_Defender.cpp" />
+    <ClCompile Include="Sources\Bone_Soldier.cpp" />
+    <ClCompile Include="Sources\Bulwark_of_Faith.cpp" />
+    <ClCompile Include="Sources\Crusader.cpp" />
+    <ClCompile Include="Sources\Dazzling_Light.cpp" />
+    <ClCompile Include="Sources\Dead_Weight.cpp" />
+    <ClCompile Include="Sources\Divine_Comfort.cpp" />
+    <ClCompile Include="Sources\Divine_Grace.cpp" />
+    <ClCompile Include="Sources\Game.cpp" />
+    <ClCompile Include="Sources\Graveyard_Slash.cpp" />
+    <ClCompile Include="Sources\Graveyard_Stumble.cpp" />
+    <ClCompile Include="Sources\Hero.cpp" />
+    <ClCompile Include="Sources\Holy_Lance.cpp" />
+    <ClCompile Include="Sources\Knitting_Bones.cpp" />
+    <ClCompile Include="Sources\Mace_Bash.cpp" />
+    <ClCompile Include="Sources\Main.cpp" />
+    <ClCompile Include="Sources\Monster.cpp" />
+    <ClCompile Include="Sources\MoveSkill.cpp" />
+    <ClCompile Include="Sources\Skill.cpp" />
+    <ClCompile Include="Sources\Smite.cpp" />
+    <ClCompile Include="Sources\Stunning_Blow.cpp" />
+    <ClCompile Include="Sources\StunSkill.cpp" />
+    <ClCompile Include="Sources\Unit.cpp" />
+    <ClCompile Include="Sources\Utility.cpp" />
+    <ClCompile Include="Sources\UtilitySkill.cpp" />
+    <ClCompile Include="Sources\Vestal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\AttackSkill.h" />
+    <ClInclude Include="Includes\Axeblade.h" />
+    <ClInclude Include="Includes\Bone_Defender.h" />
+    <ClInclude Include="Includes\Bone_Soldier.h" />
+    <ClInclude Include="Includes\Bulwark_of_Faith.h" />
+    <ClInclude Include="Includes\Crusader.h" />
+    <ClInclude Include="Includes\Dazzling_Light.h" />
+    <ClInclude Include="Includes\Dead_Weight.h" />
+    <ClInclude Include="Includes\Divine_Comfort.h" />
+    <ClInclude Include="Includes\Divine_Grace.h" />
+    <ClInclude Include="Includes\Game.h" />
+    <ClInclude Include="Includes\Graveyard_Slash.h" />
+    <ClInclude Include="Includes\Graveyard_Stumble.h" />
+    <ClInclude Include="Includes\Hero.h" />
+    <ClInclude Include="Includes\Holy_Lance.h" />
+    <ClInclude Include="Includes\Knitting_Bones.h" />
+    <ClInclude Include="Includes\Mace_Bash.h" />
+    <ClInclude Include="Includes\Monster.h" />
+    <ClInclude Include="Includes\MoveSkill.h" />
+    <ClInclude Include="Includes\Skill.h" />
+    <ClInclude Include="Includes\Smite.h" />
+    <ClInclude Include="Includes\Stunning_Blow.h" />
+    <ClInclude Include="Includes\StunSkill.h" />
+    <ClInclude Include="Includes\Unit.h" />
+    <ClInclude Include="Includes\Utility.h" />
+    <ClInclude Include="Includes\UtilitySkill.h" />
+    <ClInclude Include="Includes\Vestal.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{F13404B7-A16A-4320-ABD9-93A9BDED35E9}</ProjectGuid>
+    <RootNamespace>DarkestDungeonCombat</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Includes;$(ProjectDir);$(ProjectDir)Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)Sources;$(ProjectDir)Includes;$(ProjectDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Includes;$(ProjectDir);$(ProjectDir)Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)Sources;$(ProjectDir)Includes;$(ProjectDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
